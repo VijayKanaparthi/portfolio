@@ -1,6 +1,5 @@
 import { Component } from "react"
 import { GiHamburgerMenu } from "react-icons/gi"
-import clsx from "clsx"
 
 import gitHubLogo from "../../assets/github.png"
 import linkedin from "../../assets/linkedin.png"
