@@ -65,79 +65,100 @@ import todo from "../../assets/todo.png"
 import object_detection from "../../assets/object_detection.png"
 import weather_app from "../../assets/weather_app.png"
 import professional_photo from "../../assets/professional_photo.png"
+import go_shop from "../../assets/go_shop.png"
+import casa_mart_new_look from "../../assets/casa_mart_new_look.png"
+import ai_mirror from "../../assets/ai_mirror.png"
 
 const projects = [
   {
     id: 1,
+    name: "Casa Mart New Look",
+    image: casa_mart_new_look,
+    link: "https://casamart-new-frontend-new.onrender.com/",
+  },
+  {
+    id: 2,
+    name: "AI Mirror",
+    image: ai_mirror,
+    link: "https://ai-mirror.onrender.com/",
+  },
+  {
+    id: 3,
     name: "Casa Mart",
     image: casmart,
     link: "https://casa-mart-frontend.onrender.com",
   },
   {
-    id: 2,
+    id: 4,
     name: "Plant Health Detection",
     image: plant_health_detection,
     link: "https://plant-helath-detection.vercel.app/",
   },
   {
-    id: 3,
+    id: 5,
     name: "Nxt Watch",
     image: nxt_watch,
     link: "https://vj1999nxtwatch.ccbp.tech/login",
   },
   {
-    id: 4,
+    id: 6,
     name: "Jobby App",
     image: jobby,
     link: "https://vj1999jobbyapp.ccbp.tech/login",
   },
   {
-    id: 5,
+    id: 7,
     name: "NxtTrendz",
     image: nxt_trendz,
     link: "https://vj1999nxttrendz.ccbp.tech/login",
   },
   {
-    id: 6,
+    id: 8,
     name: "NetFlix Clone",
     image: netflix,
     link: "https://comfy-basbousa-6fd022.netlify.app/",
   },
   {
-    id: 7,
+    id: 9,
     name: "AI Resume Filter",
     image: resume_filter,
     link: "https://www.youtube.com/watch?v=9vyDi03Jw0E",
   },
   {
-    id: 8,
+    id: 10,
     name: "Gemini 2.o (Chatbot)",
     image: gemini,
     link: "https://www.youtube.com/watch?v=epORKLuaOPc",
   },
   {
-    id: 9,
+    id: 11,
     name: "Text to Image",
     image: text_to_image,
     link: "https://www.youtube.com/watch?v=CPBizm2lmb8&t=16s",
   },
   {
-    id: 10,
+    id: 12,
     name: "TODO(Using Python Full Stack)",
     image: todo,
     link: "https://www.youtube.com/watch?v=afeLO8nVB_U",
   },
   {
-    id: 11,
+    id: 13,
     name: "Object Detection",
     image: object_detection,
     link: "https://www.youtube.com/watch?v=bdTlk99IFGc",
   },
   {
-    id: 12,
+    id: 14,
     name: "Weather App",
     image: weather_app,
     link: "https://www.youtube.com/watch?v=wwCTdToOauA",
+  },
+  {
+    id: 15,
+    name: "Go Shop",
+    image: go_shop,
+    link: "https://www.youtube.com/watch?v=2Ohw_j2WBwE",
   },
 ]
 
@@ -235,7 +256,7 @@ class Portfolio extends Component {
                 className="bg-black text-white p-3 rounded outline-none border-none mr-2"
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1CUUGkIDMtc_je35mIgbwudMOOLltfUvB/view?usp=sharing",
+                    "https://drive.google.com/file/d/1piSxlWeI4SX3psQkePZP46HZkYEIFOGw/view?usp=sharing",
                     "_blank"
                   )
                 }
@@ -448,7 +469,7 @@ class Portfolio extends Component {
             </p>
 
             <a
-              href="https://drive.google.com/file/d/1CUUGkIDMtc_je35mIgbwudMOOLltfUvB/view?usp=sharing"
+              href="https://drive.google.com/file/d/1piSxlWeI4SX3psQkePZP46HZkYEIFOGw/view?usp=sharing"
               target="_blank"
               download
               class="mt-4 inline-block px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
